@@ -1,0 +1,7 @@
+C:\Users\nutan\source\repos\Practical_03\Practical_03\bin\Debug\Practical_03.exe.config
+C:\Users\nutan\source\repos\Practical_03\Practical_03\bin\Debug\Practical_03.exe
+C:\Users\nutan\source\repos\Practical_03\Practical_03\bin\Debug\Practical_03.pdb
+C:\Users\nutan\source\repos\Practical_03\Practical_03\obj\Debug\Practical_03.csproj.AssemblyReference.cache
+C:\Users\nutan\source\repos\Practical_03\Practical_03\obj\Debug\Practical_03.csproj.CoreCompileInputs.cache
+C:\Users\nutan\source\repos\Practical_03\Practical_03\obj\Debug\Practical_03.exe
+C:\Users\nutan\source\repos\Practical_03\Practical_03\obj\Debug\Practical_03.pdb
