@@ -1,0 +1,79 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+
+<body>
+
+    <div>
+        @DateTime.Now
+        <br />
+        DateTime
+        <br />
+        @(10 - 5)
+    </div>
+
+    <div>
+        @{
+            var x = 10;
+            var y = 5;
+            var z = x + y;
+            var a = x - y;
+            var b = x * y;
+        }
+    </div>
+
+    <label>Addition = @z</label>
+    <br />
+
+    <label>Subtraction = @a</label>
+    <br />
+
+    <label>Multiplication = @b</label>
+    <br />
+
+    <div>
+        @{
+            var dlr = 5;
+            var rs = dlr * 82;
+        }
+    </div>
+
+    <label>Conversion = @rs</label>
+
+    <div>
+        @{
+            var cce = 80;
+            var dwdm = 70;
+            var ai = 85;
+
+            var total = cce + dwdm + ai;
+            var percentage = total / 3.0;
+        }
+
+        <br />
+        <label>Total Marks = @total</label>
+        <br />
+        <label>Percentage = @percentage</label>
+    </div>
+
+    <div>
+        @{
+            var price = 50;
+        }
+    </div>
+
+    @if (price >= 50)
+    {
+        <p>Price is Equal to 50</p>
+    }
+
+</body>
+</html>
